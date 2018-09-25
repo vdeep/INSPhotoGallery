@@ -1,9 +1,11 @@
 PODS:
   - INSNibLoading (1.0.2)
+  - INSPhotoGallery (1.2.6)
   - Kingfisher (4.10.0)
 
 DEPENDENCIES:
   - INSNibLoading
+  - INSPhotoGallery (from `../`)
   - Kingfisher
 
 SPEC REPOS:
@@ -11,10 +13,15 @@ SPEC REPOS:
     - INSNibLoading
     - Kingfisher
 
+EXTERNAL SOURCES:
+  INSPhotoGallery:
+    :path: "../"
+
 SPEC CHECKSUMS:
   INSNibLoading: 0244d5b9c30d4642c77b31469cbfd905e8b1efb3
+  INSPhotoGallery: 908ee0c8729c51b442cf5ceac347eb4ad3ff838e
   Kingfisher: 43c4b802d8b5256cf1f4379e9cd10b329be6d3e2
 
-PODFILE CHECKSUM: 65ef0a362e355fd18c77f31b51039f3d5b311896
+PODFILE CHECKSUM: b06a8cb8f25f8e5d47fb8a484a8cfd4778dd1780
 
 COCOAPODS: 1.5.3

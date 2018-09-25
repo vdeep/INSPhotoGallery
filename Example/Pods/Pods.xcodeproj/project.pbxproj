@@ -9,51 +9,86 @@
 /* Begin PBXBuildFile section */
 		008D5DDE0942B5C3EC51E6D4557DFD64 /* Placeholder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8350FA3EF06B34A6A643E3D9263581F3 /* Placeholder.swift */; };
 		07C0515BAB41A01EDFCB5164FB622170 /* ImageModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA710514ACF614D49B340B63082D2EF /* ImageModifier.swift */; };
-		1451FCCE241AA2CBC5555E90815D1DC5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89DC365FEF314CAE9760892B813E187E /* Foundation.framework */; };
+		0CD50D001B5B1B4547446CE4FC6DCE32 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DC9399F1404670F5D6065EDC78C55A4 /* UIKit.framework */; };
 		179FCD8BC40E115DFA9C05F603A878A9 /* Resource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D84C77E3F2390C83C9AA98924CEEBDC /* Resource.swift */; };
+		19008709D3AD5C9130DA5C4FB81C1110 /* INSPhotoGallery-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B8C87980F43BBD1074D5822D95CF0C9 /* INSPhotoGallery-dummy.m */; };
+		1E9E6B33936AB0CCDA9FCFA05D1346CF /* INSPhotoGalleryClose@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 26F2591AC032432117D284520B6692E8 /* INSPhotoGalleryClose@2x.png */; };
 		20FEB969513418DFAC5090C858D10516 /* Kingfisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61F0A180320663E7E851189259360BD2 /* Kingfisher.swift */; };
+		2845064CF1F7FFF9BF193EA494955BB4 /* UIVIew+INSPhotoViewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A155996D0F8E3B5737D5BC9D1D1CDDCF /* UIVIew+INSPhotoViewer.swift */; };
+		2E9EA4DB872F8E7F3AAF01DDD01E2E87 /* INSPhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = C992F6F928F67F9A80AB14EB18C11A8D /* INSPhoto.swift */; };
 		2F84C0A84F2B5A0E9E3073417CA651C3 /* ImageTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630467BF0FAB88062D989F5E930CA61E /* ImageTransition.swift */; };
+		308EAA987EDDE682F115A2178206AE19 /* INSPhotoGalleryCloseLandscape@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 40E5DEFE71E3C8EF72D5D2C72B746656 /* INSPhotoGalleryCloseLandscape@3x.png */; };
+		317F3372D7860EE085B94CF944585D1F /* INSPhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6344DBFC6857253C2377224E7BBCAE60 /* INSPhotosViewController.swift */; };
 		34AEF9EE16EAEAF7FA0E66A48982F0C8 /* UIButton+Kingfisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24EF853706E2EC4036859E2D1CA13F3 /* UIButton+Kingfisher.swift */; };
+		354FC9D765B9CE658BF39535EB846458 /* INSPhotoGalleryClose@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A42C6AA2F2BF4809438247672D03FBD6 /* INSPhotoGalleryClose@3x.png */; };
 		3554E5702FFEA0C2FC74B19EEC7D6325 /* Indicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E0C149D6D495C9CB0FC4C2502F9B8D /* Indicator.swift */; };
+		3BF3C2B90C961DA47EF1F8B8B146FB77 /* INSPhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636173A6554CC29C5C833BFEE825E72A /* INSPhotoViewController.swift */; };
+		41AF7BEC53A5B0C74247E129A82E18B9 /* INSPhotosTransitionAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3ABEC8A34494CD10893A9E231A4FE75 /* INSPhotosTransitionAnimator.swift */; };
 		41D22E6F4C3E24D8FE690DE6D644AC3E /* ImagePrefetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C645106EC5A6436E361905A1589B03 /* ImagePrefetcher.swift */; };
 		42704C865611655BCE42D3C4461579BD /* INSNibLoading-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F468F9D1E132E1A296A9EE3339C6B30 /* INSNibLoading-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		446D947D0B2D041D26C498412340C934 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CB6D132DFC2376C792570201509E48F /* Foundation.framework */; };
 		453378DA661AD7FCBA79D1BFA59302EB /* FormatIndicatedCacheSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5867CC1CACE04C32ABC577AF187B47CB /* FormatIndicatedCacheSerializer.swift */; };
+		5507792DD951DA844BDD7799CA50D878 /* Pods-Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD65E35A3233FBE6F2EFDEB3D43D114 /* Pods-Example-dummy.m */; };
+		5F03C704C95C2A430AAD6D02D841EA9B /* INSPhotoGallery.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 18E5F28082F37439FF8AEEC677D79861 /* INSPhotoGallery.bundle */; };
 		66CCE448DAB752E36445FD69CD761C93 /* KingfisherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF65ADCB67D946FF19159FEFA768A8C /* KingfisherManager.swift */; };
-		675C991E5DCF38B8C17A0C53FAE9A15F /* Pods-INSPhotoGallery-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BB8190A62D432CDA9842F850C129C369 /* Pods-INSPhotoGallery-dummy.m */; };
+		6D246F35C06EC0EA79252318601CA78E /* INSPhotoGallery.h in Headers */ = {isa = PBXBuildFile; fileRef = 8DF1B36532CE6B8E48E69A5E57D47A8C /* INSPhotoGallery.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		70B206E2EACF703243C89B2ACC02BB3A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CB6D132DFC2376C792570201509E48F /* Foundation.framework */; };
 		733B00F3323B72EB4E292B640CB715BE /* UIView+INSNibLoading.h in Headers */ = {isa = PBXBuildFile; fileRef = 7133DA313AF0DD7FDFDDF67F16367E97 /* UIView+INSNibLoading.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		74991D9F2A55044D75545D00A70C8CA9 /* Kingfisher.h in Headers */ = {isa = PBXBuildFile; fileRef = AC1FE295A5610FDA05223ED178CD4943 /* Kingfisher.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		75A1E4900C0AA7CE6E2454C64AA169E2 /* ImageView+Kingfisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A5FEFB513D6D1441BCB4DB8425B612 /* ImageView+Kingfisher.swift */; };
+		76782BF6C195C47653CFB2EB495297A6 /* INSPhotoGalleryCloseLandscape@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 68B91F476D53C172A41AC64A7F765736 /* INSPhotoGalleryCloseLandscape@2x.png */; };
+		7691811D8525C35C9552581E460A6B75 /* INSPhotosOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08E2B5E36ABEC50EFEBAC5E52045AE3C /* INSPhotosOverlayView.swift */; };
 		833B4550B26D2A945E08C978BB7BD505 /* String+MD5.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D0BF7670C4BDEAFF5B1A77F9F36BCC /* String+MD5.swift */; };
+		83B7257DC67714F9EFEC29F9BF886D43 /* INSPhotoGalleryCloseLandscape.png in Resources */ = {isa = PBXBuildFile; fileRef = 47AD0E82343613803BAAFB2D19C5C7F7 /* INSPhotoGalleryCloseLandscape.png */; };
 		88CE4EE02A104D4BD65DE024ACF209F7 /* KingfisherOptionsInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F222071C02525D5A87A63FD78DD977CF /* KingfisherOptionsInfo.swift */; };
+		8D7DF7C4289BADD103421ACADF28D94B /* INSPhotosInteractionAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F0F7AF25CB235FD44F1B335CF52EB4D /* INSPhotosInteractionAnimator.swift */; };
 		90523ACEFEF8D56C35F5CF41CB70EE58 /* ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60E7A66F42ABBDF5BC711DC603D73EF0 /* ImageCache.swift */; };
 		95AB33523EE2DA5C145714D7279E8D27 /* CacheSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A268745F46C926EF8799389BF4999796 /* CacheSerializer.swift */; };
 		97EB2E795C2BE40106D734B5C0AEBDB3 /* ImageDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA410A4A49B228AD592A42BF53BD9A1 /* ImageDownloader.swift */; };
+		994AD21F954821D54323E3A007A5E38D /* INSPhotoGallery-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F8FC93263896FCA1F5955D845E96B75 /* INSPhotoGallery-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9EC378A59905FB98E8AD95F1D97E5A3A /* INSPhotoGalleryClose.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CE95DC413E1ADC8587092673B8241E8 /* INSPhotoGalleryClose.png */; };
 		9EDFA1C34D4853B76A78B8E40B89C775 /* RequestModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72C061538BF4AF22DE151703CCF790D /* RequestModifier.swift */; };
+		A7D72E38B5603F7E468E1F4BF16B87A3 /* Pods-Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 15D3FE98E9F2D34863BD3F3597A0485A /* Pods-Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AE633B3532903E2EF04B5D7BA480C3C7 /* Kingfisher-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 20FA5CC9C1860E8AB9119569665B1F6B /* Kingfisher-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B1D0744B9405A528508A49B4DE06A8DB /* Filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A177A82C3DA9AA35565C58F8D9BCE301 /* Filter.swift */; };
 		B239F6D91EC58C8046497C0909CB2E78 /* Box.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37DF15BCD2C5C2CFB6A96C355D251BE /* Box.swift */; };
-		B2EFCB251998FC9F2F1D168E53BD2111 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6757C44D1A8B62FD3A7062E345EA7F6 /* CFNetwork.framework */; };
+		B2EFCB251998FC9F2F1D168E53BD2111 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBBF4598A7C2F4F25C4A23D3B97162FF /* CFNetwork.framework */; };
 		B3A8FAC81334E924372FEB2696CE0636 /* INSNibLoading-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BD4F7C947D5472E05C02A63842122ABD /* INSNibLoading-dummy.m */; };
-		B7C967C40364C8E023AA01CD84146239 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89DC365FEF314CAE9760892B813E187E /* Foundation.framework */; };
+		B7C967C40364C8E023AA01CD84146239 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CB6D132DFC2376C792570201509E48F /* Foundation.framework */; };
 		BBE6B85E960BF7927A44E2329DE05A5F /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC8D39A6032D402C54C3D370955CB7C /* Image.swift */; };
 		C9538BAC268AB8AAB4336A4E62B2EA1F /* Kingfisher-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CAEF5B767BBEAF99C9A6F43866B3FF05 /* Kingfisher-dummy.m */; };
-		D274C2230E53457776F9D4EF567A0E65 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89DC365FEF314CAE9760892B813E187E /* Foundation.framework */; };
+		D274C2230E53457776F9D4EF567A0E65 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CB6D132DFC2376C792570201509E48F /* Foundation.framework */; };
+		D5141D6F3AE1E2490087455CC988BF46 /* INSScalingImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA53B932429FFB4CDF6C9A98C96EBB81 /* INSScalingImageView.swift */; };
 		DAC3F0C65BA82526594477C6DDF06745 /* ImageProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB8516D40219507CDD01A5E26351021 /* ImageProcessor.swift */; };
 		E266B2731E48B745795747EE0258283F /* UIView+INSNibLoading.m in Sources */ = {isa = PBXBuildFile; fileRef = 506F6115F55C7DB4ECC7F49F03E443E1 /* UIView+INSNibLoading.m */; };
-		E2D1C98FD94811DE2988A548B26F4F28 /* Pods-INSPhotoGallery-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1344BC178AF7512F017CB7BEE7B22F80 /* Pods-INSPhotoGallery-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EA9BE16ECCC17CC9AD847C52D1B64671 /* AnimatedImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42AD0AE220A62624D6EDD59DFF7B65D9 /* AnimatedImageView.swift */; };
 		F667936752E8742E44668CC80FC31720 /* ThreadHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2BEC39035D473A33839B694A3CBCC8D /* ThreadHelper.swift */; };
+		F83A9F1B9CE4E3BF112B72BDA2EAB5FB /* INSPhotosDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07BEB69285345BC6E048C240E888DEC0 /* INSPhotosDataSource.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		6E89410EB711E93BFFF4FA3EA9969719 /* PBXContainerItemProxy */ = {
+		26667A2342F9E4418DF87A9834EAA0C2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = A15CD3220CB655EF65975142EDBD8C6E;
 			remoteInfo = Kingfisher;
 		};
-		7EDCB2A6C623439F9448A486B91AC318 /* PBXContainerItemProxy */ = {
+		5BB89A5ADB309FAA88CFB590CD8705C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E93DE3BA401CD69CD60B399D8663FAEB;
+			remoteInfo = "INSPhotoGallery-INSPhotoGallery";
+		};
+		BA6D03FC4A8737D1F4CB49A916742EC0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 38E5D23A2A56836BCB61640A88A3DB33;
+			remoteInfo = INSPhotoGallery;
+		};
+		EBC99CDCC27AE7BA68339ACA5DEA0305 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
@@ -63,57 +98,86 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00A72B008F82B7F71AF57850E2330364 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		044AA3E23F71470C9B5F50D44720EA0D /* Pods-Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Example-resources.sh"; sourceTree = "<group>"; };
+		07BEB69285345BC6E048C240E888DEC0 /* INSPhotosDataSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = INSPhotosDataSource.swift; path = INSPhotoGallery/INSPhotosDataSource.swift; sourceTree = "<group>"; };
+		08E2B5E36ABEC50EFEBAC5E52045AE3C /* INSPhotosOverlayView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = INSPhotosOverlayView.swift; path = INSPhotoGallery/INSPhotosOverlayView.swift; sourceTree = "<group>"; };
+		0B8C87980F43BBD1074D5822D95CF0C9 /* INSPhotoGallery-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "INSPhotoGallery-dummy.m"; sourceTree = "<group>"; };
 		0D84C77E3F2390C83C9AA98924CEEBDC /* Resource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Resource.swift; path = Sources/Resource.swift; sourceTree = "<group>"; };
-		1344BC178AF7512F017CB7BEE7B22F80 /* Pods-INSPhotoGallery-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-INSPhotoGallery-umbrella.h"; sourceTree = "<group>"; };
+		11434BC759D12F57876FBB74A4775E74 /* Pods-Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		15D3FE98E9F2D34863BD3F3597A0485A /* Pods-Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Example-umbrella.h"; sourceTree = "<group>"; };
+		18E5F28082F37439FF8AEEC677D79861 /* INSPhotoGallery.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = INSPhotoGallery.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AD65E35A3233FBE6F2EFDEB3D43D114 /* Pods-Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Example-dummy.m"; sourceTree = "<group>"; };
 		20FA5CC9C1860E8AB9119569665B1F6B /* Kingfisher-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Kingfisher-umbrella.h"; sourceTree = "<group>"; };
 		23FD6F7C751E98BCAC755440F089141C /* Kingfisher.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Kingfisher.modulemap; sourceTree = "<group>"; };
-		2F9290FF89C2416D06B810AE8D08952A /* Pods-INSPhotoGallery-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-INSPhotoGallery-resources.sh"; sourceTree = "<group>"; };
+		25A37D4D536CC5988A439441117C41F4 /* Pods-Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Example.modulemap"; sourceTree = "<group>"; };
+		26F2591AC032432117D284520B6692E8 /* INSPhotoGalleryClose@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "INSPhotoGalleryClose@2x.png"; path = "INSPhotoGallery/INSPhotoGallery.bundle/INSPhotoGalleryClose@2x.png"; sourceTree = "<group>"; };
+		2CE95DC413E1ADC8587092673B8241E8 /* INSPhotoGalleryClose.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = INSPhotoGalleryClose.png; path = INSPhotoGallery/INSPhotoGallery.bundle/INSPhotoGalleryClose.png; sourceTree = "<group>"; };
+		2F0F7AF25CB235FD44F1B335CF52EB4D /* INSPhotosInteractionAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = INSPhotosInteractionAnimator.swift; path = INSPhotoGallery/INSPhotosInteractionAnimator.swift; sourceTree = "<group>"; };
+		2F8FC93263896FCA1F5955D845E96B75 /* INSPhotoGallery-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "INSPhotoGallery-umbrella.h"; sourceTree = "<group>"; };
+		3ADE9E5655579DB0F79DC9C80758673C /* Pods-Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3D3A5E6F5B0E26ECE08AEAC80D1E7F22 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		3DC9399F1404670F5D6065EDC78C55A4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		3EA410A4A49B228AD592A42BF53BD9A1 /* ImageDownloader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageDownloader.swift; path = Sources/ImageDownloader.swift; sourceTree = "<group>"; };
+		3F3EFEBDE6702DEFDFFF9D5C6DBC3773 /* Pods-Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Example-frameworks.sh"; sourceTree = "<group>"; };
+		40E5DEFE71E3C8EF72D5D2C72B746656 /* INSPhotoGalleryCloseLandscape@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "INSPhotoGalleryCloseLandscape@3x.png"; path = "INSPhotoGallery/INSPhotoGallery.bundle/INSPhotoGalleryCloseLandscape@3x.png"; sourceTree = "<group>"; };
+		416CE7DE6CE47518D433380EB4C3F9B2 /* INSNibLoading.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = INSNibLoading.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		42AD0AE220A62624D6EDD59DFF7B65D9 /* AnimatedImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnimatedImageView.swift; path = Sources/AnimatedImageView.swift; sourceTree = "<group>"; };
-		4580F13C751D32728B70AAA23DADF5E1 /* Pods-INSPhotoGallery.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-INSPhotoGallery.debug.xcconfig"; sourceTree = "<group>"; };
 		45E0C149D6D495C9CB0FC4C2502F9B8D /* Indicator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Indicator.swift; path = Sources/Indicator.swift; sourceTree = "<group>"; };
+		47AD0E82343613803BAAFB2D19C5C7F7 /* INSPhotoGalleryCloseLandscape.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = INSPhotoGalleryCloseLandscape.png; path = INSPhotoGallery/INSPhotoGallery.bundle/INSPhotoGalleryCloseLandscape.png; sourceTree = "<group>"; };
 		49C645106EC5A6436E361905A1589B03 /* ImagePrefetcher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImagePrefetcher.swift; path = Sources/ImagePrefetcher.swift; sourceTree = "<group>"; };
+		4F054F8FCFE94E766EF318ABD8609D01 /* INSPhotoGallery.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = INSPhotoGallery.xcconfig; sourceTree = "<group>"; };
+		4F7B7DF6ED6ED72986BB27CAB166489B /* INSPhotoGallery.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = INSPhotoGallery.modulemap; sourceTree = "<group>"; };
+		50665F70CDE26CDA61FED035BC0370EF /* ResourceBundle-INSPhotoGallery-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-INSPhotoGallery-Info.plist"; sourceTree = "<group>"; };
 		506F6115F55C7DB4ECC7F49F03E443E1 /* UIView+INSNibLoading.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+INSNibLoading.m"; path = "INSNibLoading/iOS/UIView+INSNibLoading.m"; sourceTree = "<group>"; };
 		525958B51AAE132D8093E0923A343887 /* Kingfisher.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Kingfisher.xcconfig; sourceTree = "<group>"; };
 		52A5FEFB513D6D1441BCB4DB8425B612 /* ImageView+Kingfisher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ImageView+Kingfisher.swift"; path = "Sources/ImageView+Kingfisher.swift"; sourceTree = "<group>"; };
 		52E5B7F068D2736415EF88304D04573E /* INSNibLoading.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = INSNibLoading.xcconfig; sourceTree = "<group>"; };
 		5867CC1CACE04C32ABC577AF187B47CB /* FormatIndicatedCacheSerializer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormatIndicatedCacheSerializer.swift; path = Sources/FormatIndicatedCacheSerializer.swift; sourceTree = "<group>"; };
+		591BC923555579C508B6B954374798C8 /* INSPhotoGallery.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = INSPhotoGallery.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B81C04F8E84EAE60AE15C8695031A5F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5CB6D132DFC2376C792570201509E48F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		60E7A66F42ABBDF5BC711DC603D73EF0 /* ImageCache.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageCache.swift; path = Sources/ImageCache.swift; sourceTree = "<group>"; };
 		61F0A180320663E7E851189259360BD2 /* Kingfisher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Kingfisher.swift; path = Sources/Kingfisher.swift; sourceTree = "<group>"; };
 		630467BF0FAB88062D989F5E930CA61E /* ImageTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageTransition.swift; path = Sources/ImageTransition.swift; sourceTree = "<group>"; };
+		6344DBFC6857253C2377224E7BBCAE60 /* INSPhotosViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = INSPhotosViewController.swift; path = INSPhotoGallery/INSPhotosViewController.swift; sourceTree = "<group>"; };
+		636173A6554CC29C5C833BFEE825E72A /* INSPhotoViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = INSPhotoViewController.swift; path = INSPhotoGallery/INSPhotoViewController.swift; sourceTree = "<group>"; };
 		682F1C346DD10267A4B192E8E264DCB7 /* Kingfisher-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Kingfisher-prefix.pch"; sourceTree = "<group>"; };
+		68B91F476D53C172A41AC64A7F765736 /* INSPhotoGalleryCloseLandscape@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "INSPhotoGalleryCloseLandscape@2x.png"; path = "INSPhotoGallery/INSPhotoGallery.bundle/INSPhotoGalleryCloseLandscape@2x.png"; sourceTree = "<group>"; };
 		7133DA313AF0DD7FDFDDF67F16367E97 /* UIView+INSNibLoading.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+INSNibLoading.h"; path = "INSNibLoading/iOS/UIView+INSNibLoading.h"; sourceTree = "<group>"; };
 		7705140AB2504D845815A0951C0D1374 /* INSNibLoading-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "INSNibLoading-prefix.pch"; sourceTree = "<group>"; };
-		781F36D9A261F61196BAF8BA6AD584E0 /* Pods-INSPhotoGallery.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-INSPhotoGallery.release.xcconfig"; sourceTree = "<group>"; };
-		82194D36DC99B7682315FC1C737CE67F /* Pods_INSPhotoGallery.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_INSPhotoGallery.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8350FA3EF06B34A6A643E3D9263581F3 /* Placeholder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Placeholder.swift; path = Sources/Placeholder.swift; sourceTree = "<group>"; };
-		89DC365FEF314CAE9760892B813E187E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		8B2B79C088788E4D7E7B76FA33F7013A /* Kingfisher.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Kingfisher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DF1B36532CE6B8E48E69A5E57D47A8C /* INSPhotoGallery.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = INSPhotoGallery.h; path = INSPhotoGallery/INSPhotoGallery.h; sourceTree = "<group>"; };
 		8F468F9D1E132E1A296A9EE3339C6B30 /* INSNibLoading-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "INSNibLoading-umbrella.h"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9746EE350C62391328467C55D2DE8840 /* Pods-INSPhotoGallery.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-INSPhotoGallery.modulemap"; sourceTree = "<group>"; };
-		9EDA840484033556C356935D0E4F418B /* Pods-INSPhotoGallery-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-INSPhotoGallery-frameworks.sh"; sourceTree = "<group>"; };
+		93E6194BE18AD456B89BBEF9161C0071 /* INSPhotoGallery.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = INSPhotoGallery.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A155996D0F8E3B5737D5BC9D1D1CDDCF /* UIVIew+INSPhotoViewer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIVIew+INSPhotoViewer.swift"; path = "INSPhotoGallery/UIVIew+INSPhotoViewer.swift"; sourceTree = "<group>"; };
 		A177A82C3DA9AA35565C58F8D9BCE301 /* Filter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Filter.swift; path = Sources/Filter.swift; sourceTree = "<group>"; };
 		A268745F46C926EF8799389BF4999796 /* CacheSerializer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CacheSerializer.swift; path = Sources/CacheSerializer.swift; sourceTree = "<group>"; };
+		A3ABEC8A34494CD10893A9E231A4FE75 /* INSPhotosTransitionAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = INSPhotosTransitionAnimator.swift; path = INSPhotoGallery/INSPhotosTransitionAnimator.swift; sourceTree = "<group>"; };
+		A42C6AA2F2BF4809438247672D03FBD6 /* INSPhotoGalleryClose@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "INSPhotoGalleryClose@3x.png"; path = "INSPhotoGallery/INSPhotoGallery.bundle/INSPhotoGalleryClose@3x.png"; sourceTree = "<group>"; };
 		A72C061538BF4AF22DE151703CCF790D /* RequestModifier.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequestModifier.swift; path = Sources/RequestModifier.swift; sourceTree = "<group>"; };
+		A79AC23D5A157FED70D9C53D844B2319 /* Pods-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Example.release.xcconfig"; sourceTree = "<group>"; };
+		AB811B09B5EE7EDCABAFF3424F8DBAEE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		AC1FE295A5610FDA05223ED178CD4943 /* Kingfisher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Kingfisher.h; path = Sources/Kingfisher.h; sourceTree = "<group>"; };
 		B37DF15BCD2C5C2CFB6A96C355D251BE /* Box.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Box.swift; path = Sources/Box.swift; sourceTree = "<group>"; };
-		B50F9F7FF59DB0401C51EC04245F1C3E /* Pods-INSPhotoGallery-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-INSPhotoGallery-acknowledgements.markdown"; sourceTree = "<group>"; };
-		BB8190A62D432CDA9842F850C129C369 /* Pods-INSPhotoGallery-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-INSPhotoGallery-dummy.m"; sourceTree = "<group>"; };
 		BD4F7C947D5472E05C02A63842122ABD /* INSNibLoading-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "INSNibLoading-dummy.m"; sourceTree = "<group>"; };
 		C2BEC39035D473A33839B694A3CBCC8D /* ThreadHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ThreadHelper.swift; path = Sources/ThreadHelper.swift; sourceTree = "<group>"; };
 		C5D0BF7670C4BDEAFF5B1A77F9F36BCC /* String+MD5.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+MD5.swift"; path = "Sources/String+MD5.swift"; sourceTree = "<group>"; };
-		C6757C44D1A8B62FD3A7062E345EA7F6 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
+		C992F6F928F67F9A80AB14EB18C11A8D /* INSPhoto.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = INSPhoto.swift; path = INSPhotoGallery/INSPhoto.swift; sourceTree = "<group>"; };
+		CA53B932429FFB4CDF6C9A98C96EBB81 /* INSScalingImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = INSScalingImageView.swift; path = INSPhotoGallery/INSScalingImageView.swift; sourceTree = "<group>"; };
 		CAEF5B767BBEAF99C9A6F43866B3FF05 /* Kingfisher-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Kingfisher-dummy.m"; sourceTree = "<group>"; };
+		CDA6F92B61284EDA521A762FC4AFEEC2 /* INSPhotoGallery-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "INSPhotoGallery-prefix.pch"; sourceTree = "<group>"; };
 		CEA710514ACF614D49B340B63082D2EF /* ImageModifier.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageModifier.swift; path = Sources/ImageModifier.swift; sourceTree = "<group>"; };
+		DDAAA2D83B24FBE6302C75A1ADBA0515 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE3219B3010A4E63BCEB953C1486B8D3 /* Pods_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E144059A328F24CD04A24C60A810C016 /* INSNibLoading.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = INSNibLoading.modulemap; sourceTree = "<group>"; };
 		E24EF853706E2EC4036859E2D1CA13F3 /* UIButton+Kingfisher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIButton+Kingfisher.swift"; path = "Sources/UIButton+Kingfisher.swift"; sourceTree = "<group>"; };
-		E531859A6F7E000113A06B921070C657 /* Pods-INSPhotoGallery-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-INSPhotoGallery-acknowledgements.plist"; sourceTree = "<group>"; };
 		E6C77DE2F059A2A56866429C90B3B392 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBBF4598A7C2F4F25C4A23D3B97162FF /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
 		EBF65ADCB67D946FF19159FEFA768A8C /* KingfisherManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KingfisherManager.swift; path = Sources/KingfisherManager.swift; sourceTree = "<group>"; };
-		EC3B22D5AEA21D531C58B3864EFBBBD3 /* INSNibLoading.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = INSNibLoading.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEC8D39A6032D402C54C3D370955CB7C /* Image.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Image.swift; path = Sources/Image.swift; sourceTree = "<group>"; };
+		EEF7BBB27C6DC1D114FEC188953183A1 /* Kingfisher.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Kingfisher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFC5B2E05B58CD826FD55659BF1D7E39 /* Pods-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Example.debug.xcconfig"; sourceTree = "<group>"; };
 		F222071C02525D5A87A63FD78DD977CF /* KingfisherOptionsInfo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KingfisherOptionsInfo.swift; path = Sources/KingfisherOptionsInfo.swift; sourceTree = "<group>"; };
 		FBB8516D40219507CDD01A5E26351021 /* ImageProcessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageProcessor.swift; path = Sources/ImageProcessor.swift; sourceTree = "<group>"; };
 		FE121A634586FA5E57206B360A9E2E68 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -129,6 +193,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		681F3D6B9F4B0FC3A611146F5266AFE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				446D947D0B2D041D26C498412340C934 /* Foundation.framework in Frameworks */,
+				0CD50D001B5B1B4547446CE4FC6DCE32 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		88C45C4308B1BE7506C140E4BF77628D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -137,41 +210,77 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F14EC10A707F82F3ECF572046DB85B26 /* Frameworks */ = {
+		A45DD990FA4901EDDD7FBD2D2296B7A4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1451FCCE241AA2CBC5555E90815D1DC5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D675D8A2508D3E575BBC7C5837EB61C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70B206E2EACF703243C89B2ACC02BB3A /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		296ABC63411E3684722206F702E8EC41 /* Pods-INSPhotoGallery */ = {
+		0C998D20D004DFB9226C56E5893CE13E /* INSPhotoGallery */ = {
 			isa = PBXGroup;
 			children = (
-				00A72B008F82B7F71AF57850E2330364 /* Info.plist */,
-				9746EE350C62391328467C55D2DE8840 /* Pods-INSPhotoGallery.modulemap */,
-				B50F9F7FF59DB0401C51EC04245F1C3E /* Pods-INSPhotoGallery-acknowledgements.markdown */,
-				E531859A6F7E000113A06B921070C657 /* Pods-INSPhotoGallery-acknowledgements.plist */,
-				BB8190A62D432CDA9842F850C129C369 /* Pods-INSPhotoGallery-dummy.m */,
-				9EDA840484033556C356935D0E4F418B /* Pods-INSPhotoGallery-frameworks.sh */,
-				2F9290FF89C2416D06B810AE8D08952A /* Pods-INSPhotoGallery-resources.sh */,
-				1344BC178AF7512F017CB7BEE7B22F80 /* Pods-INSPhotoGallery-umbrella.h */,
-				4580F13C751D32728B70AAA23DADF5E1 /* Pods-INSPhotoGallery.debug.xcconfig */,
-				781F36D9A261F61196BAF8BA6AD584E0 /* Pods-INSPhotoGallery.release.xcconfig */,
+				C992F6F928F67F9A80AB14EB18C11A8D /* INSPhoto.swift */,
+				8DF1B36532CE6B8E48E69A5E57D47A8C /* INSPhotoGallery.h */,
+				07BEB69285345BC6E048C240E888DEC0 /* INSPhotosDataSource.swift */,
+				2F0F7AF25CB235FD44F1B335CF52EB4D /* INSPhotosInteractionAnimator.swift */,
+				08E2B5E36ABEC50EFEBAC5E52045AE3C /* INSPhotosOverlayView.swift */,
+				A3ABEC8A34494CD10893A9E231A4FE75 /* INSPhotosTransitionAnimator.swift */,
+				6344DBFC6857253C2377224E7BBCAE60 /* INSPhotosViewController.swift */,
+				636173A6554CC29C5C833BFEE825E72A /* INSPhotoViewController.swift */,
+				CA53B932429FFB4CDF6C9A98C96EBB81 /* INSScalingImageView.swift */,
+				A155996D0F8E3B5737D5BC9D1D1CDDCF /* UIVIew+INSPhotoViewer.swift */,
+				B500EEF2FFACCF48CF27B72D70B7AEBE /* Pod */,
+				E946610149CEAD78BB45DA80FAF0DE52 /* Resources */,
+				77F2283A268D2CD4AE3404F65131A57F /* Support Files */,
 			);
-			name = "Pods-INSPhotoGallery";
-			path = "Target Support Files/Pods-INSPhotoGallery";
+			name = INSPhotoGallery;
+			path = ../..;
 			sourceTree = "<group>";
 		};
-		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+		0DFED8094295CECDFD78B9B7B87F6855 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				D52304B3F0670EE0236B3F34A532CB30 /* iOS */,
+				0C998D20D004DFB9226C56E5893CE13E /* INSPhotoGallery */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CE49ED124281705B1321BAEED438CAA6 /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1B5ECB992A56AE0C70DC72D88BB90B05 /* Pods-Example */ = {
+			isa = PBXGroup;
+			children = (
+				5B81C04F8E84EAE60AE15C8695031A5F /* Info.plist */,
+				25A37D4D536CC5988A439441117C41F4 /* Pods-Example.modulemap */,
+				3ADE9E5655579DB0F79DC9C80758673C /* Pods-Example-acknowledgements.markdown */,
+				11434BC759D12F57876FBB74A4775E74 /* Pods-Example-acknowledgements.plist */,
+				1AD65E35A3233FBE6F2EFDEB3D43D114 /* Pods-Example-dummy.m */,
+				3F3EFEBDE6702DEFDFFF9D5C6DBC3773 /* Pods-Example-frameworks.sh */,
+				044AA3E23F71470C9B5F50D44720EA0D /* Pods-Example-resources.sh */,
+				15D3FE98E9F2D34863BD3F3597A0485A /* Pods-Example-umbrella.h */,
+				EFC5B2E05B58CD826FD55659BF1D7E39 /* Pods-Example.debug.xcconfig */,
+				A79AC23D5A157FED70D9C53D844B2319 /* Pods-Example.release.xcconfig */,
+			);
+			name = "Pods-Example";
+			path = "Target Support Files/Pods-Example";
 			sourceTree = "<group>";
 		};
 		4937DA263AC86ABC16EB69E18C3CEF77 /* Support Files */ = {
@@ -186,6 +295,14 @@
 			);
 			name = "Support Files";
 			path = "../Target Support Files/Kingfisher";
+			sourceTree = "<group>";
+		};
+		6A4F6A14E3FB951290E4531728B7A461 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1B5ECB992A56AE0C70DC72D88BB90B05 /* Pods-Example */,
+			);
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 		70A6E8C13BDBD3036AAC6B5D0EC68A33 /* Kingfisher */ = {
@@ -220,6 +337,21 @@
 			path = Kingfisher;
 			sourceTree = "<group>";
 		};
+		77F2283A268D2CD4AE3404F65131A57F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DDAAA2D83B24FBE6302C75A1ADBA0515 /* Info.plist */,
+				4F7B7DF6ED6ED72986BB27CAB166489B /* INSPhotoGallery.modulemap */,
+				4F054F8FCFE94E766EF318ABD8609D01 /* INSPhotoGallery.xcconfig */,
+				0B8C87980F43BBD1074D5822D95CF0C9 /* INSPhotoGallery-dummy.m */,
+				CDA6F92B61284EDA521A762FC4AFEEC2 /* INSPhotoGallery-prefix.pch */,
+				2F8FC93263896FCA1F5955D845E96B75 /* INSPhotoGallery-umbrella.h */,
+				50665F70CDE26CDA61FED035BC0370EF /* ResourceBundle-INSPhotoGallery-Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/INSPhotoGallery";
+			sourceTree = "<group>";
+		};
 		7C35E250373FFE2A8E4972B77F3FCE0B /* INSNibLoading */ = {
 			isa = PBXGroup;
 			children = (
@@ -234,26 +366,42 @@
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				0DFED8094295CECDFD78B9B7B87F6855 /* Development Pods */,
+				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
 				F577D06133CB92F5B2187504930BA0A9 /* Pods */,
-				F10F97F406DCD6F7270C2F70EE7C92AD /* Products */,
-				CAE6A2CA32ADF46E1BFD71B565B74975 /* Targets Support Files */,
+				CDFDA7D2102EA04C60A8B388EE0DDE11 /* Products */,
+				6A4F6A14E3FB951290E4531728B7A461 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		CAE6A2CA32ADF46E1BFD71B565B74975 /* Targets Support Files */ = {
+		B500EEF2FFACCF48CF27B72D70B7AEBE /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				296ABC63411E3684722206F702E8EC41 /* Pods-INSPhotoGallery */,
+				93E6194BE18AD456B89BBEF9161C0071 /* INSPhotoGallery.podspec */,
+				3D3A5E6F5B0E26ECE08AEAC80D1E7F22 /* LICENSE */,
+				AB811B09B5EE7EDCABAFF3424F8DBAEE /* README.md */,
 			);
-			name = "Targets Support Files";
+			name = Pod;
 			sourceTree = "<group>";
 		};
-		D52304B3F0670EE0236B3F34A532CB30 /* iOS */ = {
+		CDFDA7D2102EA04C60A8B388EE0DDE11 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C6757C44D1A8B62FD3A7062E345EA7F6 /* CFNetwork.framework */,
-				89DC365FEF314CAE9760892B813E187E /* Foundation.framework */,
+				416CE7DE6CE47518D433380EB4C3F9B2 /* INSNibLoading.framework */,
+				18E5F28082F37439FF8AEEC677D79861 /* INSPhotoGallery.bundle */,
+				591BC923555579C508B6B954374798C8 /* INSPhotoGallery.framework */,
+				EEF7BBB27C6DC1D114FEC188953183A1 /* Kingfisher.framework */,
+				DE3219B3010A4E63BCEB953C1486B8D3 /* Pods_Example.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE49ED124281705B1321BAEED438CAA6 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				EBBF4598A7C2F4F25C4A23D3B97162FF /* CFNetwork.framework */,
+				5CB6D132DFC2376C792570201509E48F /* Foundation.framework */,
+				3DC9399F1404670F5D6065EDC78C55A4 /* UIKit.framework */,
 			);
 			name = iOS;
 			sourceTree = "<group>";
@@ -272,14 +420,17 @@
 			path = "../Target Support Files/INSNibLoading";
 			sourceTree = "<group>";
 		};
-		F10F97F406DCD6F7270C2F70EE7C92AD /* Products */ = {
+		E946610149CEAD78BB45DA80FAF0DE52 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				EC3B22D5AEA21D531C58B3864EFBBBD3 /* INSNibLoading.framework */,
-				8B2B79C088788E4D7E7B76FA33F7013A /* Kingfisher.framework */,
-				82194D36DC99B7682315FC1C737CE67F /* Pods_INSPhotoGallery.framework */,
+				2CE95DC413E1ADC8587092673B8241E8 /* INSPhotoGalleryClose.png */,
+				26F2591AC032432117D284520B6692E8 /* INSPhotoGalleryClose@2x.png */,
+				A42C6AA2F2BF4809438247672D03FBD6 /* INSPhotoGalleryClose@3x.png */,
+				47AD0E82343613803BAAFB2D19C5C7F7 /* INSPhotoGalleryCloseLandscape.png */,
+				68B91F476D53C172A41AC64A7F765736 /* INSPhotoGalleryCloseLandscape@2x.png */,
+				40E5DEFE71E3C8EF72D5D2C72B746656 /* INSPhotoGalleryCloseLandscape@3x.png */,
 			);
-			name = Products;
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		F577D06133CB92F5B2187504930BA0A9 /* Pods */ = {
@@ -294,14 +445,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		158F2B2413F179978CC78A134C0A3CD9 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E2D1C98FD94811DE2988A548B26F4F28 /* Pods-INSPhotoGallery-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		46A61ACC46B263076737E2BC5A300007 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -320,9 +463,45 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DC9FE13CE62FAEC62CD79A0D73DF09F7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				994AD21F954821D54323E3A007A5E38D /* INSPhotoGallery-umbrella.h in Headers */,
+				6D246F35C06EC0EA79252318601CA78E /* INSPhotoGallery.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F35EB92F1237CE1873AF54E6DC63A893 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7D72E38B5603F7E468E1F4BF16B87A3 /* Pods-Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		38E5D23A2A56836BCB61640A88A3DB33 /* INSPhotoGallery */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0885C7BC92DB20A40C9573EF2BB1251B /* Build configuration list for PBXNativeTarget "INSPhotoGallery" */;
+			buildPhases = (
+				DC9FE13CE62FAEC62CD79A0D73DF09F7 /* Headers */,
+				A18DCB3110E12206B442D1BB9312E523 /* Sources */,
+				681F3D6B9F4B0FC3A611146F5266AFE1 /* Frameworks */,
+				F0CF88CC84A831167623D53572C4888F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				477020DC32BAAD83504C3461CC7EF6DE /* PBXTargetDependency */,
+			);
+			name = INSPhotoGallery;
+			productName = INSPhotoGallery;
+			productReference = 591BC923555579C508B6B954374798C8 /* INSPhotoGallery.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		474E96EC972DA2A6CAD763371ADD1322 /* INSNibLoading */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4E95E194AFA72D43C9FC7A1F2FA2B7E2 /* Build configuration list for PBXNativeTarget "INSNibLoading" */;
@@ -338,7 +517,7 @@
 			);
 			name = INSNibLoading;
 			productName = INSNibLoading;
-			productReference = EC3B22D5AEA21D531C58B3864EFBBBD3 /* INSNibLoading.framework */;
+			productReference = 416CE7DE6CE47518D433380EB4C3F9B2 /* INSNibLoading.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		A15CD3220CB655EF65975142EDBD8C6E /* Kingfisher */ = {
@@ -356,28 +535,46 @@
 			);
 			name = Kingfisher;
 			productName = Kingfisher;
-			productReference = 8B2B79C088788E4D7E7B76FA33F7013A /* Kingfisher.framework */;
+			productReference = EEF7BBB27C6DC1D114FEC188953183A1 /* Kingfisher.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		DCDF6625FB584891E35BA639F4C946CB /* Pods-INSPhotoGallery */ = {
+		E059D7623E1AD0296A4CAB25996761F1 /* Pods-Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D9EF0C9BDA09D9A18A2D24FCE48287B9 /* Build configuration list for PBXNativeTarget "Pods-INSPhotoGallery" */;
+			buildConfigurationList = 14ACA40718E1050F9D62050F675320D8 /* Build configuration list for PBXNativeTarget "Pods-Example" */;
 			buildPhases = (
-				158F2B2413F179978CC78A134C0A3CD9 /* Headers */,
-				869A1FD6C8EC655495C755BFC7C97BF7 /* Sources */,
-				F14EC10A707F82F3ECF572046DB85B26 /* Frameworks */,
-				F4A8A9D87F46E90AC1007F5669228AFD /* Resources */,
+				F35EB92F1237CE1873AF54E6DC63A893 /* Headers */,
+				2AA2E2474DFED7CB3A4EA28518AA3B11 /* Sources */,
+				D675D8A2508D3E575BBC7C5837EB61C2 /* Frameworks */,
+				C357D15C4472C67D48F190ED586BC8CC /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				1327EF8ADDBA97958ED5ED1CB72D8B6B /* PBXTargetDependency */,
-				6239A8B291F63503C0A5FEFE25C5EF8B /* PBXTargetDependency */,
+				A64C64B8A41005462D9FC66EDE784595 /* PBXTargetDependency */,
+				AA990D86308D8FA1C9A8C2FF16EA5F1E /* PBXTargetDependency */,
+				7A4C1DF963C8A13A0C2B2F09ADCDEAC1 /* PBXTargetDependency */,
 			);
-			name = "Pods-INSPhotoGallery";
-			productName = "Pods-INSPhotoGallery";
-			productReference = 82194D36DC99B7682315FC1C737CE67F /* Pods_INSPhotoGallery.framework */;
+			name = "Pods-Example";
+			productName = "Pods-Example";
+			productReference = DE3219B3010A4E63BCEB953C1486B8D3 /* Pods_Example.framework */;
 			productType = "com.apple.product-type.framework";
+		};
+		E93DE3BA401CD69CD60B399D8663FAEB /* INSPhotoGallery-INSPhotoGallery */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 996ADB8B3B8DF733FBAFF3D67E84C1EA /* Build configuration list for PBXNativeTarget "INSPhotoGallery-INSPhotoGallery" */;
+			buildPhases = (
+				F55445E9038CF7EB29954DE820228996 /* Sources */,
+				A45DD990FA4901EDDD7FBD2D2296B7A4 /* Frameworks */,
+				7FC8598944CFA87565E281E2AFFF6EC8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "INSPhotoGallery-INSPhotoGallery";
+			productName = "INSPhotoGallery-INSPhotoGallery";
+			productReference = 18E5F28082F37439FF8AEEC677D79861 /* INSPhotoGallery.bundle */;
+			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
 
@@ -396,18 +593,33 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = F10F97F406DCD6F7270C2F70EE7C92AD /* Products */;
+			productRefGroup = CDFDA7D2102EA04C60A8B388EE0DDE11 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				474E96EC972DA2A6CAD763371ADD1322 /* INSNibLoading */,
+				38E5D23A2A56836BCB61640A88A3DB33 /* INSPhotoGallery */,
+				E93DE3BA401CD69CD60B399D8663FAEB /* INSPhotoGallery-INSPhotoGallery */,
 				A15CD3220CB655EF65975142EDBD8C6E /* Kingfisher */,
-				DCDF6625FB584891E35BA639F4C946CB /* Pods-INSPhotoGallery */,
+				E059D7623E1AD0296A4CAB25996761F1 /* Pods-Example */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		7FC8598944CFA87565E281E2AFFF6EC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EC378A59905FB98E8AD95F1D97E5A3A /* INSPhotoGalleryClose.png in Resources */,
+				1E9E6B33936AB0CCDA9FCFA05D1346CF /* INSPhotoGalleryClose@2x.png in Resources */,
+				354FC9D765B9CE658BF39535EB846458 /* INSPhotoGalleryClose@3x.png in Resources */,
+				83B7257DC67714F9EFEC29F9BF886D43 /* INSPhotoGalleryCloseLandscape.png in Resources */,
+				76782BF6C195C47653CFB2EB495297A6 /* INSPhotoGalleryCloseLandscape@2x.png in Resources */,
+				308EAA987EDDE682F115A2178206AE19 /* INSPhotoGalleryCloseLandscape@3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		907E8FAD109F4265A17FD9B5C5BCDD9D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -422,21 +634,46 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F4A8A9D87F46E90AC1007F5669228AFD /* Resources */ = {
+		C357D15C4472C67D48F190ED586BC8CC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F0CF88CC84A831167623D53572C4888F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F03C704C95C2A430AAD6D02D841EA9B /* INSPhotoGallery.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		869A1FD6C8EC655495C755BFC7C97BF7 /* Sources */ = {
+		2AA2E2474DFED7CB3A4EA28518AA3B11 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				675C991E5DCF38B8C17A0C53FAE9A15F /* Pods-INSPhotoGallery-dummy.m in Sources */,
+				5507792DD951DA844BDD7799CA50D878 /* Pods-Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A18DCB3110E12206B442D1BB9312E523 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E9EA4DB872F8E7F3AAF01DDD01E2E87 /* INSPhoto.swift in Sources */,
+				19008709D3AD5C9130DA5C4FB81C1110 /* INSPhotoGallery-dummy.m in Sources */,
+				F83A9F1B9CE4E3BF112B72BDA2EAB5FB /* INSPhotosDataSource.swift in Sources */,
+				8D7DF7C4289BADD103421ACADF28D94B /* INSPhotosInteractionAnimator.swift in Sources */,
+				7691811D8525C35C9552581E460A6B75 /* INSPhotosOverlayView.swift in Sources */,
+				41AF7BEC53A5B0C74247E129A82E18B9 /* INSPhotosTransitionAnimator.swift in Sources */,
+				317F3372D7860EE085B94CF944585D1F /* INSPhotosViewController.swift in Sources */,
+				3BF3C2B90C961DA47EF1F8B8B146FB77 /* INSPhotoViewController.swift in Sources */,
+				D5141D6F3AE1E2490087455CC988BF46 /* INSScalingImageView.swift in Sources */,
+				2845064CF1F7FFF9BF193EA494955BB4 /* UIVIew+INSPhotoViewer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -480,29 +717,47 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F55445E9038CF7EB29954DE820228996 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		1327EF8ADDBA97958ED5ED1CB72D8B6B /* PBXTargetDependency */ = {
+		477020DC32BAAD83504C3461CC7EF6DE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = INSNibLoading;
-			target = 474E96EC972DA2A6CAD763371ADD1322 /* INSNibLoading */;
-			targetProxy = 7EDCB2A6C623439F9448A486B91AC318 /* PBXContainerItemProxy */;
+			name = "INSPhotoGallery-INSPhotoGallery";
+			target = E93DE3BA401CD69CD60B399D8663FAEB /* INSPhotoGallery-INSPhotoGallery */;
+			targetProxy = 5BB89A5ADB309FAA88CFB590CD8705C1 /* PBXContainerItemProxy */;
 		};
-		6239A8B291F63503C0A5FEFE25C5EF8B /* PBXTargetDependency */ = {
+		7A4C1DF963C8A13A0C2B2F09ADCDEAC1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Kingfisher;
 			target = A15CD3220CB655EF65975142EDBD8C6E /* Kingfisher */;
-			targetProxy = 6E89410EB711E93BFFF4FA3EA9969719 /* PBXContainerItemProxy */;
+			targetProxy = 26667A2342F9E4418DF87A9834EAA0C2 /* PBXContainerItemProxy */;
+		};
+		A64C64B8A41005462D9FC66EDE784595 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = INSNibLoading;
+			target = 474E96EC972DA2A6CAD763371ADD1322 /* INSNibLoading */;
+			targetProxy = EBC99CDCC27AE7BA68339ACA5DEA0305 /* PBXContainerItemProxy */;
+		};
+		AA990D86308D8FA1C9A8C2FF16EA5F1E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = INSPhotoGallery;
+			target = 38E5D23A2A56836BCB61640A88A3DB33 /* INSPhotoGallery */;
+			targetProxy = BA6D03FC4A8737D1F4CB49A916742EC0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		3B3F9182C2FA862DAA70966BA91D0772 /* Release */ = {
+		08D48EED5932804525FC33CC242E2C3F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 781F36D9A261F61196BAF8BA6AD584E0 /* Pods-INSPhotoGallery.release.xcconfig */;
+			baseConfigurationReference = 4F054F8FCFE94E766EF318ABD8609D01 /* INSPhotoGallery.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -512,20 +767,19 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-INSPhotoGallery/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/INSPhotoGallery/INSPhotoGallery-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/INSPhotoGallery/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-INSPhotoGallery/Pods-INSPhotoGallery.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				MODULEMAP_FILE = "Target Support Files/INSPhotoGallery/INSPhotoGallery.modulemap";
+				PRODUCT_MODULE_NAME = INSPhotoGallery;
+				PRODUCT_NAME = INSPhotoGallery;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -533,11 +787,26 @@
 			};
 			name = Release;
 		};
-		3FAB8F673DEB07C7B794BA5DE1625B34 /* Debug */ = {
+		128C5E7F2A73F303AEBECB593AA68B54 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4580F13C751D32728B70AAA23DADF5E1 /* Pods-INSPhotoGallery.debug.xcconfig */;
+			baseConfigurationReference = 4F054F8FCFE94E766EF318ABD8609D01 /* INSPhotoGallery.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/INSPhotoGallery";
+				INFOPLIST_FILE = "Target Support Files/INSPhotoGallery/ResourceBundle-INSPhotoGallery-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = INSPhotoGallery;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		3CE5D35D179E555FF7F4FD050DB87D7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F054F8FCFE94E766EF318ABD8609D01 /* INSPhotoGallery.xcconfig */;
+			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -547,21 +816,19 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-INSPhotoGallery/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/INSPhotoGallery/INSPhotoGallery-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/INSPhotoGallery/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-INSPhotoGallery/Pods-INSPhotoGallery.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				MODULEMAP_FILE = "Target Support Files/INSPhotoGallery/INSPhotoGallery.modulemap";
+				PRODUCT_MODULE_NAME = INSPhotoGallery;
+				PRODUCT_NAME = INSPhotoGallery;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -661,6 +928,108 @@
 			};
 			name = Release;
 		};
+		AE6E159159F891C2754D611525A4096B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A79AC23D5A157FED70D9C53D844B2319 /* Pods-Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Example/Pods-Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B4F73DB46DCB565E4ABDBD10BF753F83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EFC5B2E05B58CD826FD55659BF1D7E39 /* Pods-Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Example/Pods-Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B7EC62E9BAA60E77BB5E773CDA4B071D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52E5B7F068D2736415EF88304D04573E /* INSNibLoading.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/INSNibLoading/INSNibLoading-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/INSNibLoading/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/INSNibLoading/INSNibLoading.modulemap";
+				PRODUCT_MODULE_NAME = INSNibLoading;
+				PRODUCT_NAME = INSNibLoading;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		D11C82AF2204B41B80412B8DC9C1D652 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -725,7 +1094,7 @@
 			};
 			name = Debug;
 		};
-		D59193F747C1FAF8A67555A1FF13E3E6 /* Release */ = {
+		DB3091CBCF4A807726E58F0D24475F75 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 52E5B7F068D2736415EF88304D04573E /* INSNibLoading.xcconfig */;
 			buildSettings = {
@@ -749,13 +1118,12 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		DE9B7A0AF27891101E5C85A5FCCFFB7E /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -789,36 +1157,21 @@
 			};
 			name = Debug;
 		};
-		EC7BE23B5C154E56AD2B604968D46606 /* Debug */ = {
+		FCFF9A830336A5FF7077C5A336E541C3 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 52E5B7F068D2736415EF88304D04573E /* INSNibLoading.xcconfig */;
+			baseConfigurationReference = 4F054F8FCFE94E766EF318ABD8609D01 /* INSPhotoGallery.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/INSNibLoading/INSNibLoading-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/INSNibLoading/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/INSPhotoGallery";
+				INFOPLIST_FILE = "Target Support Files/INSPhotoGallery/ResourceBundle-INSPhotoGallery-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/INSNibLoading/INSNibLoading.modulemap";
-				PRODUCT_MODULE_NAME = INSNibLoading;
-				PRODUCT_NAME = INSNibLoading;
+				PRODUCT_NAME = INSPhotoGallery;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				WRAPPER_EXTENSION = bundle;
 			};
-			name = Debug;
+			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
@@ -828,6 +1181,24 @@
 			buildConfigurations = (
 				DE9B7A0AF27891101E5C85A5FCCFFB7E /* Debug */,
 				8B0D9D629793E3B1703461BED209214A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0885C7BC92DB20A40C9573EF2BB1251B /* Build configuration list for PBXNativeTarget "INSPhotoGallery" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CE5D35D179E555FF7F4FD050DB87D7C /* Debug */,
+				08D48EED5932804525FC33CC242E2C3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14ACA40718E1050F9D62050F675320D8 /* Build configuration list for PBXNativeTarget "Pods-Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4F73DB46DCB565E4ABDBD10BF753F83 /* Debug */,
+				AE6E159159F891C2754D611525A4096B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -844,17 +1215,17 @@
 		4E95E194AFA72D43C9FC7A1F2FA2B7E2 /* Build configuration list for PBXNativeTarget "INSNibLoading" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EC7BE23B5C154E56AD2B604968D46606 /* Debug */,
-				D59193F747C1FAF8A67555A1FF13E3E6 /* Release */,
+				DB3091CBCF4A807726E58F0D24475F75 /* Debug */,
+				B7EC62E9BAA60E77BB5E773CDA4B071D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D9EF0C9BDA09D9A18A2D24FCE48287B9 /* Build configuration list for PBXNativeTarget "Pods-INSPhotoGallery" */ = {
+		996ADB8B3B8DF733FBAFF3D67E84C1EA /* Build configuration list for PBXNativeTarget "INSPhotoGallery-INSPhotoGallery" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3FAB8F673DEB07C7B794BA5DE1625B34 /* Debug */,
-				3B3F9182C2FA862DAA70966BA91D0772 /* Release */,
+				128C5E7F2A73F303AEBECB593AA68B54 /* Debug */,
+				FCFF9A830336A5FF7077C5A336E541C3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
